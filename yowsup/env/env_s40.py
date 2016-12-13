@@ -37,4 +37,5 @@ class S40YowsupEnv(YowsupEnv):
             OS_VERSION = self.getOSVersion(),
             DEVICE_NAME = self.getDeviceName(),
             MANUFACTURER = self.getManufacturer()
+            print WHATSAPP_VERSION + ">>>>>>>>>>>>>>>>>>>>>>"
         )
